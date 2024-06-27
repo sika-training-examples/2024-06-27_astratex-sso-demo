@@ -8,9 +8,10 @@ locals {
   ]
 
   users = {
-    "ondrej" = ["ondrej@astratex.com", "Ondrej", "Sika", local.admins]
-    "foo"    = ["foo@astratex.com", "Foo", "ATX", local.admins]
-    "bar"    = ["bar@astratex.com", "Bar", "ATX", local.admins]
+    "ondrej"  = ["ondrej@astratex.com", "Ondrej", "Sika", local.admins]
+    "foo"     = ["foo@astratex.com", "Foo", "ATX", local.admins]
+    "bar"     = ["bar@astratex.com", "Bar", "ATX", local.admins]
+    "vojtech" = ["vojtech@astratex.com", "Vojtech", "ATX", local.admins]
   }
 }
 
